@@ -1,0 +1,11 @@
+{% extends "tareas/disenio.html" %}
+
+{% block cuerpo%}
+<h1>Lista de tareas</h1>
+    <ul class="clase">
+        {%for tarea in tareas%} <!--hace un bucle for por cada tarea de python-->
+        <li>{{tarea}}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'tareas:agregar' %}"> Agregar</a>
+{% endblock %}

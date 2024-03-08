@@ -1,0 +1,18 @@
+.form-container{
+    margin: 0 auto; /* Esto centrará el contenedor horizontalmente */
+    width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+}
+
+.clase{
+    font-weight: bold;
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
+    text-indent: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+
